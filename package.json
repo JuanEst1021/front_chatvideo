@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "chat-server": "node server/chat-server.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
@@ -15,6 +16,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.5",
+    "socket.io-client": "^4.8.1",
     "tailwindcss": "^4.1.16",
     "zustand": "^5.0.8"
   },
@@ -30,6 +32,7 @@
     "globals": "^16.4.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
-    "vite": "^7.1.7"
+    "vite": "^7.1.7",
+    "ws": "^8.16.0"
   }
 }

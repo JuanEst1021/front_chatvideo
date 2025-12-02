@@ -1,0 +1,16 @@
+{
+  "name": "eisc-meet-chat-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for EISC-Meet chat",
+  "main": "chat-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node chat-server.js"
+  },
+  "keywords": ["websocket", "chat", "real-time"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
